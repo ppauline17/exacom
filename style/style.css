@@ -1,0 +1,163 @@
+
+/******************* FONT LATO ********************/
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url(font/Lato-Thin.ttf);
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url(font/Lato-ThinItalic.ttf);
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url(font/Lato-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url(font/Lato-LightItalic.ttf);
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url(font/Lato-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url(font/Lato-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url(font/Lato-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url(font/Lato-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url(font/Lato-Black.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url(font/Lato-BlackItalic.ttf);
+    font-weight: 900;
+    font-style: italic;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/* header */
+
+header{
+    background-color: rgb(99, 119, 135);
+}
+
+header nav{
+    background-color: rgb(99, 119, 135);
+}
+
+header .logo{
+    width: 200px;
+}
+header li, .logo{
+    margin-right: 20px;
+}
+
+header .nav-link{
+    color: white;
+    font-size: 20px;
+    transform: scale(1);
+    transition: transform 0.1s linear;
+}
+
+header .nav-link:hover{
+    color: white;
+    transform: scale(1.1);
+    transition: transform 0.1s linear;
+}
+
+header a.nav-link.active{
+    color: white !important;
+    font-weight: bold;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(99, 119, 135);
+    padding: 50px 0;
+}
+
+footer a{
+    color: white;
+}
+
+/* global */
+
+.btn-primary{
+    background-color: rgb(99, 119, 135);
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: rgb(131, 153, 172);
+}
+
+.breadcrumb-item a{
+    color: rgb(99, 119, 135);
+}
+
+/* accueil */
+.accueil a{
+    text-decoration: none;
+}
+
+.accueil .card{
+    transform: scale(1);
+    transition: transform 0.1s linear;
+}
+
+.accueil .card:hover{
+    transform: scale(1.05);
+    transition: transform 0.1s linear;
+}
+
+/* galerie */
+
+.galerie img{
+    transform: scale(1);
+    transition: transform 0.1s linear;
+}
+
+.galerie img:hover{
+    transform: scale(1.05);
+    transition: transform 0.1s linear;
+}
