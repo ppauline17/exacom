@@ -16,16 +16,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link <?php if($title=="Accueil"){ echo "active";}?>" href="index.php" title="Accueil">Accueil</a>
+                        <a class="nav-link <?php if($title=="Accueil"){ echo "active";}?>" href="accueil" title="Accueil">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php if($title=="Présentation"){ echo "active";}?>" href="presentation.php" title="Présentation">Présentation</a>
+                        <a class="nav-link <?php if($title=="Présentation"){ echo "active";}?>" href="presentation" title="Présentation">Présentation</a>
                     </li>
                         <li class="nav-item">
-                    <a class="nav-link <?php if($title=="Galerie"){ echo "active";}?>" href="galerie.php" title="Galerie">Galerie</a>
+                    <a class="nav-link <?php if($title=="Galerie"){ echo "active";}?>" href="galerie" title="Galerie">Galerie</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php if($title=="Contact"){ echo "active";}?>" href="contact.php"  title="Contact">Contact</a>
+                        <a class="nav-link <?php if($title=="Contact"){ echo "active";}?>" href="contact"  title="Contact">Contact</a>
                     </li>
                 </ul>
             </div>

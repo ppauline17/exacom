@@ -1,0 +1,8 @@
+RewriteEngine On
+
+ErrorDocument 404 https://ppasquier.alwaysdata.net/exacom/404.php
+
+RewriteRule ^accueil$ ./index.php
+RewriteRule ^presentation$ ./presentation.php
+RewriteRule ^galerie$ ./galerie.php
+RewriteRule ^contact$ ./contact.php
